@@ -1,0 +1,82 @@
+# Visual Studio build files and folders
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+Debug/
+Release/
+x64/
+x86/
+[Bb]uild/
+[Bb]in/
+[Oo]bj/
+ipch/
+*.opensdf
+*.sdf
+*.cache
+*.db
+*.VC.db
+*.VC.VC.opendb
+
+# DirectX SDK sample browser and temp files
+*.aps
+*.ncb
+*.log
+*.tlog
+*.lastbuildstate
+*.idb
+*.pdb
+
+# Precompiled headers
+*.pch
+
+# Compiled Dynamic libraries
+*.dll
+*.exp
+*.lib
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.old
+
+# Crash dumps
+*.mdmp
+
+# Editor/IDE files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln.docstates
+
+# Exclude DirectX SDK sample browser database
+*.sdf
+
+# CMake files (if used)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Others
+*.ipch
+*.iobj
+*.ipdb
+*.rsp
+
+# Ignore test result files
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Ignore backup and autosave files
+*~
+*.swp
+*.swo
+*.orig
