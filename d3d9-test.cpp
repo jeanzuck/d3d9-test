@@ -296,7 +296,7 @@ DWORD WINAPI RenderThread(LPVOID)
 
 int main()
 {
-	wprintf(L"d3d9-test is running...\n");
+    wprintf(L"d3d9-test is running...\n");
     HANDLE hThread = CreateThread(nullptr, 0, RenderThread, nullptr, 0, nullptr);
 
     // Wait for the render thread to finish (window closed)
